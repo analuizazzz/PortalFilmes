@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+ 
+<head>
+ 
+ <title>Portal de filmes</title>    
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+<link rel="stylesheet" href="estilos.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="#">
+
+
+<body>
+    <section class="barranav">
+  <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #f59b71;" >
+<img src="./cinema.png" width="50">  <a class="navbar-brand" href="#">Portal</a>
+<div id="divBusca">
+  <input type="text" id="txtBusca"/>
+  <a href="#tela"><button id="btnPesquisa"  style="height:28px;">Buscar</button></a>
+</div>
+    
+<div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+  <ul class="mobile-menu">
+    <li><a href="#top">Melhores Avaliados</a></li>
+    <li><a href="#destaq">Destaques</a></li>
+    <li><a href="#middle"> Avaliações</a></li>
+    <li id="login"><a href="#middle-end" >Melhores Cenas</a></li>
+    <li id="signup"><a href="#end">Novidades</a></li>
+  </ul>
+</div>
+
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+     <img src="./hollywood-star.png" width="20"> <a class="nav-link" href="#top" rel="noreferrer">Melhores Avaliados<span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <img src="./ingressos-de-cinema.png" width="20">      <a class="nav-link" href="#destaq" rel="noreferrer">Em Destaque </a>
+        </li>
+        <li class="nav-item">
+          <img src="./pipoca.png" width="20">       <a class="nav-link" href="#middle" rel="noreferrer"> Avaliações </a>
+        </li>
+        <li class="nav-item">
+          <img src="./cinema (1).png" width="20">    <a class="nav-link" href="#middle-end" rel="noreferrer">Melhores Cenas </a>
+        </li>
+        <li class="nav-item">
+          <img src="./assento-de-cinema.png" width="20">    <a class="nav-link" href="#end" rel="noreferrer">Novidades </a>
+        </li>
+      </ul>
+     
+    </div>
+    </div>
+    </div>
+  </nav>
+  
+</section>
+<main class="container">
+<section id="top" class="row parteInicial">
+ 
+  <h1>Melhores Avaliados</h1>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          
+            <iframe width="650" height="480" src="https://www.youtube.com/embed/hHBsKHVLAYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+            <div class="col-8 col-sm-8 col-md-8 col-lg-6 col-xl-4" id="texto_pri">     
+            <h2>Interestelar</h2>
+         <a href="https://www.rottentomatoes.com/m/interstellar_2014">  <p  id="interestelar"><img src="rotten.png" width="60">72% </a>
+            <img id="interestelarp" src="./pipocarotten.png" width="50">86% 
+        <p>Após ver a Terra consumindo boa parte de suas reservas naturais, um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper (Matthew McConaughey) é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand (Anne Hathaway), Jenkins (Marlon Sanders) e Doyle (Wes Bentley), ele seguirá em busca de uma nova casa. Com o passar dos anos, sua filha Murph (Mackenzie Foy e Jessica Chastain) investirá numa própria jornada para também tentar salvar a população do planeta.</p> 
+             
+        </div> </div>
+        <div class="carousel-item">
+     
+        <iframe width="650" height="480" src="https://www.youtube.com/embed/YgRo_taGWPg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     
+        <div class="col-8 col-sm-8 col-md-8 col-lg-6 col-xl-4" id="texto_pri">
+          <h2>Capitão Fantástico</h2> <p  id="interestelar"> <a href="https://www.rottentomatoes.com/m/captain_fantastic"><img src="rotten.png" width="60">83% </a>
+           <img id="interestelarp" src="./pipocarotten.png" width="50">85%  <p>  Ator do terceiro escalão de Hollywood, com participações como coadjuvante em filmes como A Outra Face, Psicopata Americano e O Aviador, Matt Ross fez sua estreia como diretor em 2012, com 28 Hotel Rooms, que foi lançado sem alarde nos Estados Unidos e nem chegou aos cinemas brasileiros. Agora, em seu segundo longa, Ross consegue um destaque bem maior. E, mais importante, bem merecido.Exibido na mostra Un Certain Regard do Festival de Cannes 2016, Capitão Fantástico é uma mistura de Pequena Miss Sunshine com Na Natureza Selvagem. O filme conta a história de dois pais que, preocupados com o rumo do mundo, decidem se isolar no meio do mato. Isolados da vida urbana, eles criam seis filhos, ensinando noções de liberdade e direitos civis, além de técnicas de sobrevivência na selva. Até as crianças mais novas aprendem a lidar com armas.Na natureza selvagem
+
+              por Lucas Salgado</p>
+        </div> </div>
+        <div class="carousel-item">
+         
+          <iframe width="650" height="480" src="https://www.youtube.com/embed/n6Etrby2jwU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          
+          <div class="col-8 col-sm-8 col-md-8 col-lg-6 col-xl-4" id="texto_pri">   <h2>La La Land: Cantando Estações</h2> 
+          <a href="https://www.rottentomatoes.com/m/la_la_land">  <p id="interestelar"><img src="rotten.png" width="60">91% </a>
+              <img id="interestelarp" src="./pipocarotten.png" width="50">81% <p>  Depois dos dez minutos iniciais da sequência de aberta de La La Land - Cantando Estações, a vontade que dá, imediatamente, é de sair correndo da sala do cinema. O propósito se justifica pelo medo de que as quase duas horas de projeção que ainda restam não estejam à altura da genialidade do início do filme. Se quer uma dica: não sucumba.A cena em questão é um plano-sequência bem complexo, no qual as pessoas abandonam seus carros em um engarrafamento para cantarem. Cantarem? Sim, depois de comandar o tenso – e brilhante – Whiplash - Em Busca da Perfeição, Damien Chazelle resolveu investir seus esforços em um gênero considerado quase datado hoje em dia.Quando você se dá por satisfeito (e olha que só se passaram dez minutos), entra em cena Emma Stone. A partir daí, você tem três minutos para se apaixonar – ou pedir o seu dinheiro de volta. O renascimento do musical
+
+                por Renato Hermsdorff
+    </p>    </div> </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+ </div> 
+</section> 
+
+<section id="destaq" class="row destaques">
+ 
+    <h3> Em Destaque</h3> 
+    <p>Alguns filmes e séries mais bem avaliados dos últimos tempos.
+      Clique no filme ou série desejado para mais detalhes na sua página do IMDB.
+     </p> 
+<div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl3" > <a  href="https://www.imdb.com/title/tt10370710/?ref_=fn_al_tt_1" target="_blank" rel="noopener noreferrer"> <img src="./a pior pessoa do mundo.jpg" id="ilhadomedo" height="315" class="imgdest"> </a> </div>
+<div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl3"> <a  href="https://www.imdb.com/title/tt0790636/?ref_=nv_sr_srsg_0" target="_blank" rel="noopener noreferrer"> <img src="./clube compras.jpg" height="315"  class="imgdest"> </a>            </div>
+<div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl3"> <a  href="https://www.imdb.com/title/tt0317248/?ref_=nv_sr_srsg_0" target="_blank" rel="noopener noreferrer">  <img src="./cidade de deus.jpg" height="315"  class="imgdest"></a>  </div>
+<div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl3"> <a  href="https://www.imdb.com/title/tt1130884/?ref_=nv_sr_srsg_0" target="_blank" rel="noopener noreferrer">   <img src="./ilha do medo.jpg" height="315"  class="imgdest">  </a>    </div>
+<div class="d-flex justify-content-end"> 
+  <div class="btn-group"> 
+    
+    <div id="flip"> <button> +Ver Mais </button>  </div>
+  <div id="panel" > <a  href="https://www.imdb.com/title/tt5555260/?ref_=fn_al_tt_1" target="_blank" rel="noopener noreferrer"><img id="maismovies"  src="./this-is-us-6-poster.jpg" height="315" padding="20px" class="imgdest"> </a> 
+  <a  href="https://www.imdb.com/title/tt11280740/?ref_=nv_sr_srsg_0" target="_blank" rel="noopener noreferrer"> <img id="maismovies"  id="serie" src="./severanCe.jpg" height="315" padding="20px" class="imgdest">  </a>   
+  <a  href="https://www.imdb.com/title/tt0903747/?ref_=nv_sr_srsg_0" target="_blank" rel="noopener noreferrer"> <img id="maismovies" id="serie" src="./brealing bad.jpg" height="315" padding="20px" class="imgdest"> </a>  
+  <a  href="https://www.imdb.com/title/tt0773262/?ref_=nv_sr_srsg_0" target="_blank" rel="noopener noreferrer">  <img id="maismovies" id="serie" src="./dexter.jpg" height="315" padding="20px" class="imgdest"> </a>   
+  <a  href="https://www.imdb.com/title/tt0386676/?ref_=nv_sr_srsg_3" target="_blank" rel="noopener noreferrer"> <img id="maismovies" id="serie" src="./the office.jpg" height="315" padding="20px" class="imgdest"></a>
+  <a  href="https://www.imdb.com/title/tt5687612/?ref_=nv_sr_srsg_3" target="_blank" rel="noopener noreferrer"> <img id="maismovies" id="serie" src="./fleabag.jpg" height="315" padding="20px" class="imgdest"></a>  
+ 
+  <a  href="https://www.imdb.com/title/tt0361748/?ref_=nv_sr_srsg_2" target="_blank" rel="noopener noreferrer"> <img id="maismovies" id="acao" src="./bastardos.jpg" height="315" padding="20px" class="imgdest"></a>   
+    <a  href="https://www.imdb.com/title/tt1853728/?ref_=nv_sr_srsg_0" target="_blank" rel="noopener noreferrer"> <img id="maismovies"  id="acao" src="./django.jpg" height="315" padding="20px" class="imgdest"></a>    
+    <a  href="https://www.imdb.com/title/tt10872600/?ref_=nv_sr_srsg_0" target="_blank" rel="noopener noreferrer"> <img id="maismovies"  id="acao" src="./no way.jpg" height="315" padding="20px" class="imgdest"></a> 
+
+    <a  href="https://www.imdb.com/title/tt2584384/?ref_=nv_sr_srsg_1" target="_blank" rel="noopener noreferrer"> <img id="maismovies" id="rom" src="./jojo.jpg" height="315" padding="20px" class="imgdest"></a>   
+      <a  href="https://www.imdb.com/title/tt0337563/?ref_=nv_sr_srsg_3" target="_blank" rel="noopener noreferrer"> <img id="maismovies" id="rom" src="./30.jpg" height="315" padding="20px" class="imgdest"></a>   
+      <a  href="https://www.imdb.com/title/tt0458352/?ref_=nv_sr_srsg_0" target="_blank" rel="noopener noreferrer"> <img id="maismovies" id="rom" src="./devil.jpg" height="315" padding="20px" class="imgdest"></a>   
+      <a  href="https://www.imdb.com/title/tt0758752/?ref_=nv_sr_srsg_0" target="_blank" rel="noopener noreferrer"> <img id="maismovies" id="rom" src="./love and.jpg" height="315" padding="20px" class="imgdest"></a>   
+      <a  href="https://www.imdb.com/title/tt0147800/?ref_=nv_sr_srsg_0" target="_blank" rel="noopener noreferrer"> <img id="maismovies" id="rom" src="./10things.jpg" height="315" padding="20px" class="imgdest"></a>
+      <a  href="https://www.imdb.com/title/tt4364194/?ref_=nv_sr_srsg_0" target="_blank" rel="noopener noreferrer"> <img id="maismovies" id="rom" src="./the peanut.jpg" height="315" padding="20px" class="imgdest"></a>   
+   
+      <a  href="https://www.imdb.com/title/tt0245429/?ref_=nv_sr_srsg_0" target="_blank" rel="noopener noreferrer"> <img id="maismovies"  id="anima" src="./chihiro.jpg" height="315" padding="20px" class="imgdest"></a>     
+      <a  href="https://www.imdb.com/title/tt2380307/?ref_=nv_sr_srsg_0" target="_blank" rel="noopener noreferrer"> <img id="maismovies"  id="anima" src="./viva.jpg" height="315" padding="20px" class="imgdest"></a>   
+      <a  href="https://www.imdb.com/title/tt0114709/?ref_=nv_sr_srsg_0" target="_blank" rel="noopener noreferrer"> <img id="maismovies" id="anima" src="./toy.jpg" height="315" padding="20px" class="imgdest"></a>  
+      <a  href="https://www.imdb.com/title/tt0266543/?ref_=nv_sr_srsg_0" target="_blank" rel="noopener noreferrer"> <img id="maismovies"  id="anima" src="./nemo.jpg" height="315" padding="20px" class="imgdest"></a>  
+ </div> </div> 
+    
+    
+</div>
+</section>
+<section id="middle" class="row avaliações">
+<h4>Avaliações</h4>
+
+  <div class="avali" id="diva-vali">
+    <div class="m_col-2">
+    <img class="align-self-start mr-3" src="./fotocritico.png" alt="Imagem de exemplo genérica" height="50">
+    <div class="media-body">
+      <div class="m_col-9">
+      <h5 class="mt-0">David Stratton: Interestelar</h5>
+      <p>
+       
+Isto não é apenas uma aventura espacial tremendamente emocionante... É também uma meditação rica e pensativa sobre o tempo, o espaço e a gravidade.
+      </p> 
+      </div>
+</div>
+  </div>
+
+  <div class="media" id="diva-vali" > 
+    <div class="m_col-2">
+    <img class="align-self-start mr-3" src="./fotocritico.png" alt="Imagem de exemplo genérica" height="50">
+    <div class="media-body">
+      <div class="m_col-9">
+      <h5 class="mt-0">Anne Thompson: Django Livre</h5>
+      <p>
+Tarantino projetou este faroeste revisionista para explodir as juntas das pessoas. Repleto de comédia física, ação sangrenta e vingança infernal, parece um clássico do oeste de Sergio Leone...
+      </p>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+
+  <div class="media" id="diva-vali"> 
+    <div class="m_col-2">
+    <img class="align-self-start mr-3" src="./fotocritico.png" alt="Imagem de exemplo genérica" height="50">
+    <div class="media-body">
+      <div class="m_col-9">
+      <h5>Allison Rose: Bastardos Inglórios</h5>
+      <p>
+        é essencialmente Tarantino e uma obra-prima que será considerada um clássico daqui a 50 anos.
+      </p>
+      </div>
+      </div>
+    </div>
+  </div> 
+</div>
+<div id="maiscrit"> <button> +críticas </button>  </div>
+<div id="mais" ><div id="diva-vali"> <p> <img class="align-self-start mr-3" src="./fotocritico.png" alt="Imagem de exemplo genérica" height="50"></p>
+  <h5 class="mt-0">Wenlei Ma: The Peanut Butter Falcon</h5>
+      <p>
+        
+O Peanut Butter Falcon é um retrato doce, terno e alegre de uma amizade improvável, e não deixará de encantar.
+      </p>
+      <p> <img class="align-self-start mr-3" src="./fotocritico.png" alt="Imagem de exemplo genérica" height="50"></p>
+      <h5 class="mt-0">Kambole Campbell: La La Land</h5>
+          <p>
+            Um casamento lindamente fotografado, sem vergonha nostálgica e agridoce do moderno e do tradicional, provando o fantástico olho de Chazelle para sequências musicais.
+          </p>
+         </div> 
+         <p> <img class="align-self-start mr-3" src="./fotocritico.png" alt="Imagem de exemplo genérica" height="50"></p>
+         <h5 class="mt-0">Liz Shannon Miller: Homem Aranha: Sem Volta Para Casa</h5>
+             <p>
+              Ao longo de tudo isso, a estranha e complexa história do Homem-Aranha como um ícone cinematográfico não é um empecilho para a história; em vez disso, é um aprimoramento, usando as peculiaridades do legado do personagem como uma fonte de iluminação sobre por que ele suportou tanto tempo.
+             </p>
+            </div>       
+</section>
+
+<section id="middle-end" class="row entrevistas">
+  <h3>Melhores Cenas</h3> 
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        
+        <iframe id="video" width="430" height="320" src="https://www.youtube.com/embed/UyvFiG1K0W0" title="Breaking Bad - Where is the Money? Scene (S4E11) | Rotten Tomatoes TV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+        <div class="col-8 col-sm-8 col-md-8 col-lg-6 col-xl-4" id="texto_pri">     
+          <h2>Breaking Bad</h2> <h3>Comentários do público</h3>
+            <p> Shawn Laib:"Esta cena é o que acontece quando você combina uma vez na vida atuação, escrita, composição musical e direção. Eu literalmente pensei sobre isso por horas depois que eu vi pela primeira vez."  </p>
+            <p>Richard Crosgrove:"Isso me abalou até o âmago quando o vi pela primeira vez. Ainda faz, sempre. É absolutamente incrível."</p>
+            
+      </div> </div>
+      <div class="carousel-item">
+       
+        <iframe id="video" width="430" height="320" src="https://www.youtube.com/embed/qHrN5Mf5sgo" title="Michael, Jim, Dwight epic scene" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+        <div class="col-8 col-sm-8 col-md-8 col-lg-6 col-xl-4" id="texto_pri">
+        <h2>The Office</h2> <h3>Comentários do público</h3>
+        <p> Adam:"Uma das maiores partes da televisão, como eles permaneceram no personagem está além de mim.""  </p>
+        <p> Jonathan Martinez:"Eu realmente me pergunto quantas vezes eles tiveram que fazer esta cena porque eu tenho quase certeza que ninguém manteve uma cara séria por pelo menos 50 tomadas. Porque eu assisti 49 vezes e ri cada vez"</p>
+      </div> </div>
+      <div class="carousel-item">
+      
+        <iframe id="video" width="430" height="320" src="https://www.youtube.com/embed/8LiVGDq01FU" title="Interstellar: Cooper learns the truth  - Interstellar Ending Scene (2014) Movieclips [HD]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+        <div class="col-8 col-sm-8 col-md-8 col-lg-6 col-xl-4" id="texto_pri">   <h2>Interestelar</h2> <h3>Comentários do público</h3>
+          <p>Madison Vorpahl:"Às vezes parece que é mais do que um filme."</p>
+          <p>Cheater Sim:"O melhor filme que eu já assisti"</p>
+    </div> </div>
+    <div class="carousel-item">
+     
+      <iframe id="video" width="430" height="320" src="https://www.youtube.com/embed/sX6cuWqWZfg" title="Toy Story 3: Cena Final" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+      <div class="col-8 col-sm-8 col-md-8 col-lg-6 col-xl-4" id="texto_pri">
+      <h2>Toy Story 3</h2> <h3>Comentários do público</h3>
+      <p>Thiago Campo:"Lembro que ganhei meu primeiro 📼. Era o toy story. 1997. Eu um menino de 7 anos. Tinha um amor por meus brinquedos e logo me identifiquei com aquele filme “novo”. Fiquei adolescente. Assisti o 2 e tive aquela sensação de nostalgia. Tinha 14. Assim q saiu o terceiro, corri para alugar. 20 anos. Esse final foi a despedida da minha infância e adolescência. Quando vi o final do filme, chorava feito criança. Lembrei da minha infância como um filme.  E sinto está mesma sensação agora, emocionado e feliz por ter a melhor infância que meus pais me proporcionaram. Obrigado Toy Story, por marcar a minha infância." </p>
+ 
+    </div> </div>
+    <div class="carousel-item">
+      
+      <iframe id="video" width="430" height="320" src="https://www.youtube.com/embed/e0ZFdiQWXTM" title="Django Unchained Table Scene 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+      <div class="col-8 col-sm-8 col-md-8 col-lg-6 col-xl-4" id="texto_pri">
+      <h2>Django Livre</h2> <h3>Comentários do público</h3>
+      <p>D H:"Esta cena deve entrar para a história como uma obra-prima clássica. Não importa quantas vezes você assista, a intensidade pura e bruta dele sempre vai te pegar. Mesmo que você não goste." </p>
+      <p>Emmanuel Davis:"Eu vi Django umas 10 vezes e juro que toda vez que vejo essa cena estou tão trancado em Leonardo é incrível."</p>
+    </div> </div>
+    <div class="carousel-item">
+   
+      <iframe  id="video" width="430" height="320" src="https://www.youtube.com/embed/86Ckh80mLlQ" title="Inglourious Basterds - Bar Scene" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   
+      <div class="col-8 col-sm-8 col-md-8 col-lg-6 col-xl-4" id="texto_pri">
+      <h2>Bastardos Inglórios</h2> <h3>Comentários do público</h3>
+      <p>Crush Of Siel:"Só Tarantino poderia criar um diálogo tão intenso que o fogo de armas realmente libera a tensão em uma cena." </p>
+      <p>A Lonesome Wolf: "Toda a cena do bar foi lindamente feita. A tensão é tão grossa que você poderia cortá-la com uma faca. A melhor parte do filme."</p>
+    </div> </div>
+  
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div> 
+ 
+</section>
+
+<section id="end" class="row novidades">
+   <h3>Novidades</h3>
+    <h5>O Multiverso da Loucura</h5>
+    <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-3">
+    <img src="./drestranho.jpeg"  class="nov">  </div>  <div class="col-8 col-sm-8 col-md-8 col-lg-6 col-xl-4">
+    <p class="text">A pré-venda de ingressos para “Doutor Estranho no Multiverso da Loucura” começou na última quarta-feira (6) e, de acordo com o CBR, analistas preveem que o filme será um dos maiores sucessos da Marvel depois da franquia “Vingadores”. Segundo previsões, já no primeiro dia de pré-venda a sequência superou com folga a venda antecipada de “The Batman”, da DC, resultando em uma projeção de arrecadação com cerca de US$ 200 milhões (aproximadamente R$ 950 milhões na conversão atual) em seu primeiro fim de semana nos cinemas. 
+        Por: Tamires Ferreira
+    </p>
+     
+  </div> 
+    <HR SIZE=7>
+  <h5>Monstruosamente Péssimo</h5>
+  <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-3">
+    <img src="./morbius_b87d_720x1280.jpg" class="nov">  </div> 
+    <div class="col-8 col-sm-8 col-md-8 col-lg-4 col-xl-4">
+    <p class="text"> Segundo críticas, o mais novo lançamento Marvel é um desastre só, acompanhe esse trecho do crítico Durval Ramos:
+        Em algum momento, durante as reuniões da Sony para desenvolver seu universo cinematográfico de super-heróis, alguém achou que seria uma boa levar Morbius para o cinema. Não só isso: alguém ouviu a proposta e gostou. E não parou por aí: deram dinheiro para esse projeto, leram o roteiro, assistiram às primeiras exibições, as segundas e todas demais e, mesmo assim, ninguém parou por um segundo para olhar para aquilo e dizer que era uma ideia estúpida. Pois agora que Morbius finalmente estreou nos cinemas, depois de vários adiamentos, só me cabe dizer isso: mas que ideia estúpida.
+    </p> 
+   
+  </div> 
+    <HR SIZE=7>
+   <h5>Banido do Oscar</h5>
+   <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-3">
+    <img src="./will-smith-oscar.jpg" class=" nov">  </div>
+    <div class="col-8 col-sm-8 col-md-8 col-lg-6 col-xl-4"> <p class="text">Will Smith aceitou a decisão da Academia de Artes e Ciências Cinematográficas, que o proibiu de ir a todos os eventos organizados pela Academia, incluindo o Oscar, por 10 anos.
+
+        “Eu aceito e respeito a decisão da Academia”, afirmou o ator em comunicado oficial. 
+        
+        A restrição não impede que ele seja indicado ao prêmio neste período, nem tira a estatueta que ganhou de melhor ator em 2022, de acordo com o que foi divulgado pelo The Hollywood Reporter.
+    Por: Renato Marafon</p> </div> 
+         <HR SIZE=7>
+            <div class="row medium-8 large-7 columns" id="tela">
+              <div class="blog-post">
+                
+                <h3>Confira 3 recordes de “Homem-Aranha: Sem Volta para Casa” </h3>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-3">
+                <img  src="./homem aranha.png" width="250" class="nov"></img> </div>
+                <div class="col-8 col-sm-8 col-md-8 col-lg-6 col-xl-4">
+                <p class="text">Com apenas dois dias, “Homem-Aranha: Sem Volta Para Casa” já fez história nas bilheterias. Confira os recordes que o longa quebrou no Brasil e Internacionalmente apenas com sua estreia:
+                </p> </div>
+                <div class="callout">
+                  <ul class="menu simple">
+                    <p style="font-weight: bold;">Homem-Aranha 3 se torna a maior abertura brasileira da história da Sony</p>
+                    <p >O filme mais comentado do ano já fez história nas bilheterias nacionais, só com as sessões da pré-estreia, que aconteceram nesta quarta-feira (15). De acordo com a Sony Pictures, Homem-Aranha 3 já é a melhor estreia da história do estúdio no Brasil. Incrível né?</p>
+                    <p style="font-weight: bold;">Homem-Aranha 3 bate o recorde e se torna a maior estreia de todos os tempos no Brasil</p>
+                    <p >“Homem-Aranha: Sem Volta Para Casa” bateu um recorde histórico, se tornando a maior estreia de todos os tempos do cinema no Brasil. Somando os resultados da pré-estreia + primeiro dia, o filme acumula +1,7 milhões espectadores e R$ 34 milhões em bilheteria.</p>
+                    <p style="font-weight: bold;">“Homem-Aranha: Sem Volta Para Casa” quebra recordes em estreia internacional</p>
+                    <p >Homem-Aranha 3 quebrou outros recordes na sua estreia internacional. De acordo com o Deadline, a arrecadação na noite de quarta-feira (15), noite da pré-estreia, ficou em aproximadamente US$ 43,6 milhões.
+
+                      No Reino Unido, o filme do amigo da vizinhança passou o clássico 007 (US$ 6,6 milhões) para se tornar a maior da história, com US$ 10,1 milhões.
+                      por Gabriela Campos
+                      17 de dezembro de 2021, 12:41/Tracklist</p>
+                    <HR SIZE=7>
+                  </ul>
+                </div>
+              </div>
+          </div>
+           
+   
+
+</section>
+
+<section class="row sobre">
+  <div class="float-right">
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Sobre</h5>
+      <p class="card-text">O Portal de filmes é um espaço coletivo feito para divulgar os maiores lançamentos do cinema e os esquecidos também, além das novidades do mundo cinematográfico.</p>
+     </div>
+    </div>
+  </div>
+</section>
+
+<section class="row editorial">
+  <div class="float-right">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Editorial</h5>
+        <p class="card-text"> <img src="./baseline_perm_identity_black_24dp.png"> Redação: Ana Luiza </p>
+        <p class="card-text">   <img src="./baseline_perm_identity_black_24dp.png">  Pesquisa: Ana Luiza </p>
+        <p class="card-text">  <img src="./baseline_perm_identity_black_24dp.png"> Gerente Geral: Ana Luiza </p>
+       </div>
+      </div>
+    </div>
+</section>
+
+<section class="row redesSociais">
+  <div class="float-right">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Redes Sociais</h5>
+        <p class="card-text"> <img src="./facebook.png" height="25px"> <img src="./instagram.png" height="25px"> <img src="./twitter.png" height="25px"> </p>
+        
+       </div>
+      </div>
+    </div>
+
+</main>
+
+</body>
+<a href="https://www.flaticon.com/br/icones-gratis/hollywood-star" title="hollywood star ícones">Hollywood star ícones criados por Freepik - Flaticon</a>
+<footer class="footer navbar-fixed-bottom">
+ <img src="./cinema.png" width="50">  Copyright 2020 - Todos os direitos reservados MinhaPagina.com Disciplina de Desenvolvimento Interfaces Web - ICEI PUC Minas 
+</footer>
+
+</section>
+
+
+
+<script src="script.js"> </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+
+</head>

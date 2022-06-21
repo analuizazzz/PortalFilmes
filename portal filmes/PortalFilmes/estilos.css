@@ -1,0 +1,478 @@
+html {
+    height:100%;
+}
+body {
+    background-color: #f1f1c1;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+    font-family: 'Arima Madurai', cursive;
+   font-family: 'Quicksand', sans-serif;
+    position: relative;
+}
+.container {
+    text-align: justify;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .carousel-item img {
+        width: 80%;
+        padding-left: 20%;
+    }
+
+    .container-info {
+        margin-top: 10%;
+        padding-left: 10%;
+        margin-right: 18%;
+        margin-bottom: 10%;
+    }
+   
+   
+}
+@media screen and (max-width: 900px) {
+    #div-avali {
+        width: 100%;
+    }
+}
+.navbar-brand {
+    padding-left: 10px;
+    justify-items: center;
+}
+#panel {
+   padding-bottom: 20px;
+    padding: 50px;
+    display: none;
+   
+  }
+#maismovies{
+    padding: 20px;
+}
+.nav {
+    
+    align-items:initial;
+    position: absolute;
+    top: 15px;
+    margin-left: 50%;
+   
+}
+
+#divBusca{
+    border-radius: 10px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width:150px;
+    margin-left: 500px;
+   padding-right: 20px;
+  }
+
+  #txtBusca{
+    border-radius: 10px;
+    float:left;
+    background-color: #ff7474;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height: 32px;
+    width:230px;
+  }
+
+
+
+
+.nov {
+    border-radius: 10px;
+  max-width: 65%;
+  float: left;
+  max-height: 315px; 
+
+}
+.parteInicial{
+    border-radius: 10px;
+    background-color:  #ff7474 ;
+    max-width: 100%;
+    margin: 0;
+}
+.trailer {
+    padding: 20px;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content:right;
+    text-align: right;
+    max-width: 100%;
+    
+}
+#texto_pri{
+
+   padding: 20px;
+   display: inline-block;
+    flex-wrap: wrap;
+    justify-content:right;
+    text-align: right;
+   
+}
+#interestelar{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content:left;
+    text-align: left;
+
+}
+
+
+#interestelar:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+#interestelarp{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: inline;
+    flex-wrap: wrap;
+    justify-content:right;
+    text-align: right;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+h1{
+    font-size: 220%;
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+h2 {
+    text-align:center;
+}
+h3{
+    font-size: 180%;
+    padding: 20px;
+}
+h4{ 
+    float: inline-start;
+    font-size: 180%;
+    padding: 20px;
+    margin-top: auto;
+}
+h5{
+    font: size 120%; 
+}
+h6 {
+    font: size 120%; 
+}
+h7 {
+    font: size 120%; 
+}
+
+#video {
+    margin-left: 10px;
+    padding: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#video:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.destaques > img {
+    border-radius: 10px;
+    border-spacing: 10px;
+    background-color:  #ff7474 ;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.nov { 
+    border-radius: 10px;
+    background:  #ff7474 ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    text-align: left;
+    padding: 20px;
+    
+}
+.text {
+background:  #c7c77f ;
+display: flex;
+flex-wrap: wrap;
+justify-content:right;
+text-align: right;
+padding: 20px;
+}
+
+.imgdest {
+    border-radius: 10px;
+    background-color:  #ff7474 ;
+    padding: 20px;
+    display: inline;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.imgdest:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.avali {
+    border-radius: 10px;
+    background-color:  #ff7474 ;
+    display: flex;
+    flex-wrap: wrap;
+    max-width:fit-content;
+    
+}
+#lisearch{
+   background-color:  #ff7474 ;
+    padding:20px;
+}
+
+.avali > div {
+    
+    flex: 2 2  10px;
+    margin: 20px;
+    
+}
+
+.entrevistas {
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width:fit-content;
+}
+.avali > img {
+    display: flex;
+    flex-wrap: wrap;
+    align-self:flex-start;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.entrevistas > div {
+    border-radius: 10px;
+    flex: 2 2  10px;
+    margin: 10px;
+    padding: 20px;
+    background-color:  #ff7474 ;
+}
+.sobre > .card {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    float:right;
+    text-align: start;
+    align-self: flex-end;
+}
+.editorial {
+    display: flex;
+    flex-wrap: wrap;
+    float:right;
+    text-align: start;
+    align-self: flex-end;
+}
+.editorial > .card {
+    display: flex;
+    flex-wrap: wrap;
+}
+.redesSociais {
+    display: flex;
+    flex-wrap: wrap;
+    float:right;
+    text-align: start;
+    align-self: flex-end;
+}
+.redesSociais > .card {
+    display: flex;
+    flex-wrap: wrap;
+} 
+.media {
+    margin:10px;
+    border-left: 5px solid #c7c77f;
+    height: 260px;
+    padding: 10px;
+}
+
+/*CSS DROPDOWN MENU*/
+.footer {
+background:gainsboro;    
+position: fixed;
+    bottom:0;
+    left:0;
+}
+.dropbtn {
+  background-color: firebrick;
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  color: #FFF;
+ transition: all 0.3s;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: firebrick;
+}
+/*CSS BOTÃO ANIMAÇÃO*/
+button{
+    border:none;
+    background-color: #f59b71;
+    border-radius: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+#butao span {
+    transition: all 0.3s;
+}
+#butao::before {
+    content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: rgba(255,255,255,0.5);
+	border-bottom-color: rgba(255,255,255,0.5);
+	transform: scale(0.1, 1);
+}
+/*.dropdown:hover span{
+    letter-spacing: 2px;
+}*/
+#butao:hover::before{
+    opacity: 1;	
+	transform: scale(1, 1);	
+}
+#butao::after{
+    content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.3s;
+	background-color: rgba(255,255,255,0.1);
+}
+#butao:hover::after{
+    opacity: 0;	
+	transform: scale(0.1, 1);
+}
+/*CSS GRID BARRA*/
+#mais{
+    
+  display: none;
+}
+/*CSS MENU MOBILE*/
+
+#hamburger-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+  }
+  #hamburger-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: #ff7474;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  .open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+  }
+  .open .bar2 {
+    opacity: 0;
+  }
+  .open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+  }
+  .open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: calc(100vh - 50px);
+    width: 100%;
+    background-color: #c7c77f;
+  }
+
+
+@media only screen and (max-width: 900px) {
+    header nav {
+      display: none;
+    }
+    #hamburger-icon {
+        display: block;
+      }
+    #diva-vali {
+        display:list-item;
+    } 
+#interestelar{
+    display: none;
+}
+#interestelarp{
+    display: none;
+}
+.media{
+    border-left: none;
+}
+#divBusca {
+    left:60px;
+    margin: 35px 0px;
+    display: inline-flex;
+
+ }
+ #divBusca > input {
+    background-color:  #f1f1c1;
+}
+}
